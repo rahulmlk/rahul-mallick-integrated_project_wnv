@@ -1,7 +1,11 @@
 # Rahul Mallick — Computational Biology Portfolio
 
+**Computational Biologist | Structural Systems Biology | Membrane Protein Interactions**
+
+[LinkedIn](https://linkedin.com/in/rahul-mallick-7822b9122) · [rahulmlk@bicpu.edu.in](mailto:rahulmlk@bicpu.edu.in) · Puducherry, India
+
 A small, representative selection of computational work from my PhD research
-in bioinformatics (Pondicherry University, Department of Bioinformatics),
+in bioinformatics (Department of Bioinformatics, Pondicherry University),
 covering West Nile Virus transcriptomics, structural bioinformatics, and
 molecular dynamics. This is **not** the full thesis codebase — it's a
 cleaned, self-contained set of examples (synthetic/toy data, no
@@ -10,14 +14,25 @@ Bash experience across the domains I've worked in.
 
 ## Background
 
-PhD thesis: *"Integrative Computational Approaches for Vaccine and
-Therapeutic Target Discovery Against West Nile Virus."* The thesis covers
-RNA-seq differential expression and pathway analysis, membrane-embedded
+Final-year PhD candidate in Bioinformatics, Pondicherry University (2021-2026),
+supervised by Prof. R. Krishna. Thesis: *"Integrative Computational
+Approaches for Vaccine and Therapeutic Target Discovery Against West Nile
+Virus."* The work integrates RNA-seq differential expression and pathway
+analysis, AlphaFold2-based structure prediction, membrane-embedded
 molecular dynamics with MM/GBSA binding free energy estimation, structural
 comparison of glycosylated vs. non-glycosylated viral proteins, and
-immunoinformatics-driven vaccine design (see also
-[rahulmlk/wnv-mesv-vaccine](https://github.com/rahulmlk/wnv-mesv-vaccine)
-for the published vaccine-design pipeline).
+immunoinformatics-driven vaccine design, published in:
+
+> Mallick R, Sethi G, Sethi S, Hwang JH, Krishna R. Artificial intelligence,
+> structural, and immunoinformatics-driven multi-epitope vaccine design
+> targeting non-structural proteins of West Nile Virus. *In Silico
+> Pharmacology* 2025;13:177. doi:10.1007/s40203-025-00459-6
+
+See also [rahulmlk/wnv-mesv-vaccine](https://github.com/rahulmlk/wnv-mesv-vaccine)
+for the full reproducible pipeline behind that paper.
+
+Previously: Research Intern, RASA Life Science Informatics, Pune (2020-2021)
+— Python-based biological data processing and NGS workflow development.
 
 ## Contents
 
@@ -33,14 +48,29 @@ Each subfolder has its own README with setup instructions, the specific
 methods it reflects from my thesis work, and how to run it against the
 included toy data.
 
-## Skills represented
+## Skills represented here vs. broader toolkit
 
-- **Python**: Biopython, MDAnalysis, pandas, matplotlib
-- **R**: DESeq2, GSVA, ggplot2, Bioconductor workflow
-- **Bash**: pipeline orchestration for alignment/quantification steps
-  (STAR, featureCounts) referenced in the transcriptomics README
-- General: reproducible analysis structure, version-controlled scientific
-  code, generating publication-style figures
+**Directly exercised in this repo's code:**
+Python (Biopython, MDAnalysis, pandas, matplotlib, numpy), R (DESeq2, GSVA,
+ggplot2, Bioconductor), Bash-documented pipeline steps (STAR, featureCounts).
+
+**Also part of my working toolkit (used in thesis work, not all reproducible
+offline — see each folder's README for what's swapped out and why):**
+- *Structural biology & modeling:* AlphaFold2, MODELLER, PyMOL, ChimeraX,
+  Discovery Studio, Ramachandran plot validation
+- *Binding site prediction:* CASTp, DoGSiteServer, SiteMap
+- *Docking / virtual screening:* Schrodinger Maestro XP Glide, AutoDock Vina,
+  ClusPro
+- *Molecular dynamics:* GROMACS, CHARMM-GUI, MM/GBSA & MM/PBSA, RMSD, RMSF,
+  SASA, PCA, DCCM, Normal Mode Analysis
+- *Immunoinformatics:* IEDB, C-ImmSim, CTL/HTL/B-cell epitope prediction,
+  HLA population coverage, TLR docking, codon adaptation (CAI)
+- *Omics & systems biology:* STAR, DESeq2, edgeR, clusterProfiler, GO/KEGG
+  enrichment, STRING, Cytoscape, network/hub-gene analysis
+- *Genomics:* QIIME2, MetaPhlAn4, HUMAnN3, BWA, GATK, SAMtools (workshop-level,
+  SERB High-End Workshop, BRIC-NIBMG, 2024), Nextflow, Snakemake
+- *General:* SQL, Linux/Bash, Git, reproducible pipeline design, HPC
+  (Falcon/Pelican clusters)
 
 ## Note on data
 
