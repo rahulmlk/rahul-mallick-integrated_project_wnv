@@ -1,0 +1,5 @@
+# Force GitHub's language detection (linguist) to recognize .nf files as
+# Nextflow -- the .nf extension is ambiguous with a couple of older
+# languages and sometimes gets misclassified or excluded otherwise.
+*.nf linguist-language=Nextflow
+nextflow.config linguist-language=Nextflow
