@@ -7,10 +7,7 @@
 A small, representative selection of computational work from my PhD research
 in bioinformatics (Department of Bioinformatics, Pondicherry University),
 covering West Nile Virus transcriptomics, structural bioinformatics, and
-molecular dynamics. This is **not** the full thesis codebase — it's a
-cleaned, self-contained set of examples (synthetic/toy data, no
-confidential or raw datasets) chosen to demonstrate hands-on Python, R, and
-Bash experience across the domains I've worked in.
+molecular dynamics. This is **not** the full thesis codebase.
 
 ## Background
 
