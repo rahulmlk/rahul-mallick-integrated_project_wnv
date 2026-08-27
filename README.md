@@ -31,8 +31,6 @@ immunoinformatics-driven vaccine design, published in:
 See also [rahulmlk/wnv-mesv-vaccine](https://github.com/rahulmlk/wnv-mesv-vaccine)
 for the full reproducible pipeline behind that paper.
 
-Previously: Research Intern, RASA Life Science Informatics, Pune (2020-2021)
-— Python-based biological data processing and NGS workflow development.
 
 ## Contents
 
